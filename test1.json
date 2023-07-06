@@ -1,0 +1,40 @@
+import json
+states_states = '''
+
+{
+	"states": [
+		{
+			"name": "Alabama",
+			"abbreviation": "AL",
+			"area_codes": ["205", "251", "256", "334", "938"]
+
+		},
+
+		{
+			"name": "Alaska",
+			"abbreviation": "AK",
+			"area_codes": ["907"]
+		},
+
+		{
+			"name": "Arizona",
+			"abbreviation": "AZ",
+			"area_codes": ["480", "520", "602", "623", "928"]
+		},
+
+			]
+		}
+'''
+data = json.load(states_states)
+print(type(data["name"]))
+#print(data)
+
+for state in data ["name"]:
+	del person["area_codes"]
+
+	new_string = json.dumps(data, indent=2, sort_keys=True)
+
+print(new_string)
+
+
+			

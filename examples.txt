@@ -1,0 +1,21 @@
+r = float(input("Enter the annualized interest rate: "))
+def interest(r):
+
+    
+    year = 1
+    principal = 10
+    bound=principal*2
+    while principal <= bound:
+        principal=(principal+r/100)+1
+        year=year+1
+        print(principal,year)
+
+interest(r)
+
+
+
+initial_amount = float(intput("initial"))
+amount = initial_amount
+#...
+
+while amount < initial_amount * 2:

@@ -1,0 +1,9 @@
+There are multiple comparison operators which can be used in Python if
+statements:
+Operator Meaning Example
+== equals if a == b:
+!= not equals if a != b:
+< less than if a < b:
+> greater than if a > b:
+<= less than or equal to if a <= b:
+>= great than or equal to if a >= b:

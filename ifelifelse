@@ -1,0 +1,2 @@
+baseballteams = ['cardinals', 'rangers', 'red sox', 'tigers', 'astros', 'pirates', 'cubs' ]
+if 'cardinals' in baseballteams:
